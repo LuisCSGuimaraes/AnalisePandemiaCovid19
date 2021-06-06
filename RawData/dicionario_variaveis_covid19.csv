@@ -1,0 +1,60 @@
+coluna,descricao
+iso_code,Codigo de 3 letras do pais definido na ISO 3166-1 alfa-3 
+continent,Continente ou localizacao geografica
+location,Localizacao geografica
+date,Data da observacao
+total_cases,Total de casos confirmados de COVID-19
+new_cases,Novos casos confirmados de COVID-19
+new_cases_smoothed,Novos casos confirmados de COVID-19 (suavizado em 7 dias)
+total_deaths,Total de mortes atribuidas a COVID-19
+new_deaths,Novas mortes atribuidas a COVID-19
+new_deaths_smoothed,Novas mortes atribuidas a COVID-19 (suavizado em 7 dias)
+total_cases_per_million,Total de casos confirmados de COVID-19 por 1.000.000 de pessoas
+new_cases_per_million,Novos casos confirmados de COVID-19 por 1.000.000 de pessoas
+new_cases_smoothed_per_million,Novos casos confirmados de COVID-19 por 1.000.000 de pessoas (suavizado em 7 dias)
+total_deaths_per_million,Total de mortes atribuidas a COVID-19 por 1.000.00 de pessoas
+new_deaths_per_million,Novas mortes atribuidas a COVID-19 por 1.000.000 pessoas
+new_deaths_smoothed_per_million,Novas mortes atribuidas a COVID-19 por 1.000.000 pessoas (suavizado em 7 dias)
+reproduction_rate,Estimativa em tempo real da taxa efetiva de reproducao (R) do COVID-19. Mais em https://github.com/crondonm/TrackingR/tree/main/Estimates-Database
+icu_patients,Numero de pacientes de COVID-19 em unidades de tratamento intensivo (ICUs) em determinado dia
+icu_patients_per_million,Numero de pacientes de COVID-19 em unidades de tratamento intensivo (ICUs) em determinado dia por 1.000.000 pessoas
+hosp_patients,Numero de pacientes de COVID-19 no hospital em determinado dia
+hosp_patients_per_million,Numero de pacientes de COVID-19 no hospital em determinado dia por 1.000.000 de pessoas
+weekly_icu_admissions,Numero de pacientes de COVID-19 recentemente admitidos em unidades de tratamento intensivo (ICUs) em determinada semana
+weekly_icu_admissions_per_million,Numero de pacientes de COVID-19 recentemente admitidos em unidades de tratamento intensivo (ICUs) em determinada semana por 1.000.000 de pessoas
+weekly_hosp_admissions,Numero de pacientes de COVID-19 recentemente admitidos em hospitais em determinada semana
+weekly_hosp_admissions_per_million,Numero de pacientes de COVID-19 recentemente admitidos em hospitais em determinada semana por 1.000.000 de pessoas
+total_tests,Total de testes para COVID-19
+new_tests,Novos testes para COVID-19 (calculado apenas para dias consecutivos)
+total_tests_per_thousand,Total de testes para COVID-19 por 1.000 pessoas
+new_tests_per_thousand,Novos testes para COVID-19 por 1.000 pessoas
+new_tests_smoothed,Novos testes para COVID-19 (suavizado em 7 dias). Para paises que nao relatam dados de teste diariamente presumimos que os testes mudaram igualmente diariamente em qualquer periodo em que nenhum dado foi relatado. Isso produz uma serie completa de numeros diarios que e entao calculada em media ao longo de uma janela continua de 7 dias
+new_tests_smoothed_per_thousand,Novos testes para COVID-19 (suavizado em 7 dias) por 1.000 de pessoas
+positive_rate,A parcela de testes COVID-19 que sao positivos  dada como uma media continua de 7 dias (este e o inverso de tests_per_case)
+tests_per_case,Testes conduzidos por casos novos confirmados de COVID-19 dado como uma media continua de 7 dias (este e o inverso de Positive_rate)
+tests_units,Unidades utilizadas pelo local para reportar seus dados de testes
+total_vaccinations,Numero total de doses de vacinas para COVID-19 administradas
+people_vaccinated,Numero total de pessoas que receberam ao menos uma dose da vacina
+people_fully_vaccinated,Numero total de pessoas que receberam todas as doses prescritas no protocolo de vacinacao
+new_vaccinations,Novas doses de vacina para COVID-19 administradas (calculado apenas para dias consecutivos)
+new_vaccinations_smoothed,Novas doses de vacina para COVID-19 administradas (suavizado em 7 dias). Para os paises que nao relatam dados de vacinacao diariamente presumimos que a vacinacao mudou igualmente diariamente em qualquer periodo em que nenhum dado foi relatado. Isso produz uma serie completa de numeros diarios  que e entao calculada em media ao longo de uma janela continua de 7 dias
+total_vaccinations_per_hundred,Numero total de doses de vacina para COVID-19 administradas por 100 pessoas na populacao total
+people_vaccinated_per_hundred,Numero total de pessoas que receberam ao menos uma dose da vacina por 100 pessoas na populacao total
+people_fully_vaccinated_per_hundred,Numero total de pessoas que receberam todas as doses prescritas no protocolo de vacinacao por 100 pessoas na populacao total
+new_vaccinations_smoothed_per_million,Novas doses de vacina para COVID-19 administradas (suavizado em 7 dias) por 1.000.000 de pessoas na populacao total
+stringency_index,Indice de rigor de resposta do governo: medida composta baseada em 9 indicadores de resposta incluindo fechamento de escolas fechamento de locais de trabalho e proibicoes de viagens redimensionado para um valor de 0 a 100 (100 = resposta mais restrita)
+population,Populacao em 2020
+population_density,Numero de pessoas divido pela area total medida em quilometro quadrados ano mais recente disponivel
+median_age,Idade media da populacao projecao das Nacoes Unidas para 2020
+aged_65_older,Parcela da populacao com 65 anos ou mais ano mais recente disponivel
+aged_70_older,Parcela da populacao com 70 anos ou mais em 2015
+gdp_per_capita,Produto interno bruto em paridade de poder de compra (Dolar internacional - ou Dolar Geary-Khamis - de 2011) ano mais recente disponivel
+extreme_poverty,Parcela da populacao vivendo em extrema pobreza ano mais recente disponivel desde 2010
+cardiovasc_death_rate,Taxa de morte por doenca cardiovascular em 2017 (numero de mortes anual por 100.000 pessoas)
+diabetes_prevalence,Prevalencia de diabetes (% da populacao entre 20 e 79 anos) em 2017
+female_smokers,Parcela de mulheres fumantes ano mais recente disponivel
+male_smokers, Parcela de homens fumantes anos mais recente disponivel
+handwashing_facilities,Parcela da populacao com instalacoes basicas para lavagem das maos disponiveis ano mais recente disponivel
+hospital_beds_per_thousand,Leitos de hospitais por 1.000 pessoas ano mais recente disponivel desde 2010
+life_expectancy, Expectativa de vida ao nascer em 2019
+human_development_index,Um indice composto que mede o desempenho medio em tres dimensoes basicas do desenvolvimento humano - uma vida longa e saudavel conhecimento e um padrao de vida decente. Valores para 2019 importado de http://hdr.undp.org/en/indicators/137506
